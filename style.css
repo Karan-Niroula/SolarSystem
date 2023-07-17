@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(images/galaxy.gif);
+}
+.topText {
+  margin-top: 20px;
+  width: 70%;
+  height: 40px;
+}
+.topText h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: rgb(239, 234, 234);
+  text-shadow: 2px 2px rgb(121, 119, 181);
+}
+.userField {
+  margin: 50px 0px 10px 0px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 0.8fr;
+  column-gap: 8px;
+  height: 40px;
+}
+.userField input {
+  padding: 10px;
+}
+.userField select {
+  outline: none;
+  padding: 5px;
+}
+.userField button {
+  background-color: rgb(116, 108, 108);
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+.userField button:hover {
+  background-color: rgb(78, 75, 75);
+  cursor: pointer;
+}
+.output_container {
+  width: 70%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  background-color: #353434b2;
+}
+.imgContainer {
+  display: none;
+
+  padding: 20px;
+  grid-column: 1;
+}
+.initialText {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(157, 157, 163, 0.295);
+}
+.initialText p {
+  text-align: center;
+  color: white;
+  font-size: larger;
+  letter-spacing: 2px;
+}
+#circularValue {
+  margin-top: 20px;
+  background-color: #353434b2;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.output_container {
+  white-space: nowrap;
+}

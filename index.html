@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topText">
+      <h1>Calculate a weight of an object on a planet</h1>
+    </div>
+
+    <div class="userField">
+      <input type="text" placeholder="Mass in kilogram" />
+      <select name="select a planet">
+        <option id="select_planet">--select a planet--</option>
+      </select>
+      <button>Calculate weight</button>
+    </div>
+
+    <div class="output_container">
+      <div class="imgContainer"></div>
+      <div class="initialText">
+        <p>Mass is required</p>
+        <div id="circularValue"><p>98 N</p></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
